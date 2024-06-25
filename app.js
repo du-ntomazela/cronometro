@@ -16,7 +16,7 @@ const render = (days, hours, minutes, seconds) => {
 const countdown = () => {
   const now = new Date();
   const nextYear = now.getFullYear() ;
-  const targetDate = new Date(nextYear, 5, 26);
+  const targetDate = new Date(nextYear, 6, 26);
 
   const timeLeft = targetDate - now;
 
